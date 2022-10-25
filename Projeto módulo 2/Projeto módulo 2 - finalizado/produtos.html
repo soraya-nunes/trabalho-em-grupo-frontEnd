@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrontEnders</title>
+  <link rel="icon" type="image/x-icon" href="imagens/favicon-frontenders.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js"></script>
+
+
+  <!-- BOOTSTRAP -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <!-- FIM DO BOOTSTRAP -->
+
+
+
+  <!-- FONTES -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- FIM DAS FONTES -->
+
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check" viewBox="0 0 16 16">
+      <title>Check</title>
+      <path
+        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+    </symbol>
+  </svg>
+
+</head>
+
+<body id="corpo-produto">
+
+  <!-- MENU E HEADER -->
+
+  <div id="header-produtos">
+
+    <div id="menu">
+      <img src="imagens/logo-frontenders.png" alt="logo">
+      <ul class="lista">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Cursos</a></li>
+        <li><a href="contatos.html">Contato</a></li>
+        <li><a href="login.html"><button class="botao-login">Log in</button></a></li>
+      </ul>
+    </div>
+
+    <div class="frase-header-produtos">
+      <img src="imagens/frase-cursos.png" alt="frase">
+      <p class="descricao">Aqui você irá aprender a se tornar um desenvolvedor front-end, praticando com os melhores
+        profissionais através da nossa plataforma moderna e vinda diretamente de outra galáxia.</p>
+    </div>
+
+    <img src="imagens/foguete.png" alt="planetas" class="img-header-produtos">
+
+    <div class="clear"></div>
+
+  </div>
+
+
+
+  <!-- FIM DO MENU E HEADER -->
+
+
+
+  <!-- CURSOS -->
+
+  <div class="container-fluid">
+
+    <div class="container" id="produtos">
+
+      <div class="row" id="cursos-lua">
+
+        <div class="col-md-4 d-none d-md-block mt-4">
+
+          <img class="planetasd" src="imagens/lua.png" alt="">
+
+        </div>
+        <!--LADO DIREITO CLASS PLANETAS-->
+
+        <div data-aos="zoom-in-up" data-aos-duration="1500" class=" col-8 col-md-3 col-sm-6 border-none">
+          <div class="card">
+            <h3 class="text-center">Pacote lua</h3>
+            <img  src="imagens/html.produto.png" alt="imagem">
+            <p class="text-center text-wrap">Html - iniciante ao avançado</p>
+            <button class="btn btn-primary" onclick="lua()">Saiba mais</button>
+          </div>
+        </div>
+
+        <div id="lua" class="d-none">
+          <div>
+            <div class="table-responsive">
+              <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">Lua</th>
+                    <th style="width: 22%;">Pro</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" class="text-start">Acesso a Platagalaxy</th>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                </tbody>
+
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">Portifolio orientado ao mercado</th>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Projetos reais em cada tema</th>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Professor particular</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Comunidade online</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a class="botao-cadastro" href="cadastro.html">Quero me inscrever!</a> <!--COLOCAR LINK DE CADASTRO-->
+            </div>
+            <a class="botao-login" href="produtos.html">Voltar</a>
+           
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" id="cursos-marte">
+
+        <div data-aos="zoom-in-up" data-aos-duration="1500" class="col-8 col-md-3 col-sm-6 border-none">
+          <div class="card">
+            <h3 class="text-center">Pacote Marte</h3>
+            <img src="imagens/css.produto.png" alt="imagem">
+            <p class="text-center text-wrap">CSS - iniciante ao avançado</p>
+            <button class="btn btn-primary" onclick="marte()">Saiba mais</button>
+          </div>
+        </div>
+
+        <div id="marte" class="d-none">
+          <div>
+            <div class="table-responsive">
+              <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">Marte</th>
+                    <th style="width: 22%;">Pro</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" class="text-start">Acesso a Platagalaxy</th>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                </tbody>
+
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">Portifolio orientado ao mercado</th>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Projetos reais em cada tema</th>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Professor particular</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Comunidade online</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a class="botao-cadastro" href="cadastro.html">Quero me inscrever!</a> <!--COLOCAR LINK DE CADASTRO-->
+            </div>
+            <a class="botao-login" href="produtos.html">Voltar</a>
+           
+          </div>
+        </div>
+
+
+        <div class="col-md-4 d-none d-md-block mt-4">
+          <img class="planetase" src="imagens/planeta1.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="row" id="cursos-jupter">
+
+        <div class="col-md-4 d-none d-md-block mt-4">
+          <img class="planetase" src="imagens/planeta3.png" alt="">
+        </div>
+
+        <div data-aos="zoom-in-left" data-aos-duration="1500" class="col-8 col-md-3 col-sm-6 border-none">
+          <div class="card">
+            <h3 class="text-center">Pacote Jupter</h3>
+            <img src="imagens/js.produto.png" alt="imagem">
+            <p class="text-center text-wrap">JS - iniciante ao avançado</p>
+            <button class="btn btn-primary" onclick="jupter()">Saiba mais</button>
+          </div>
+        </div>
+        <div id="jupter" class="d-none">
+          <div>
+            <div class="table-responsive">
+              <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">Jupter</th>
+                    <th style="width: 22%;">Pro</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" class="text-start">Acesso a Platagalaxy</th>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                </tbody>
+
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">Portifolio orientado ao mercado</th>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Projetos reais em cada tema</th>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                    <td><svg class="bi" width="24" height="24">
+                        <use xlink:href="#check" />
+                      </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Professor particular</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Comunidade online</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24">
+                      <use xlink:href="#check" />
+                    </svg></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a class="botao-cadastro" href="cadastro.html">Quero me inscrever!</a> <!--COLOCAR LINK DE CADASTRO-->
+            </div>
+            <a class="botao-login" href="produtos.html">Voltar</a>
+           
+          </div>
+        </div>
+
+    </div>
+
+  </div>
+  <!-- RODAPÉ -->
+
+  <div data-aos="fade-up" data-aos-duration="1500" id="rodape">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Menu</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cursos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contato</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Log in</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Fale conosco</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email e telefone</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Quer receber novidades?</h5>
+              <p>Deixe o seu email abaixo e receba todos os nossos laçamentos!</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email:</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Informe seu Email" required>
+                <button class="botao-rodape" type="button">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 The FrontEnders. Todos os direitos reservados.</p>
+          <ul class="list-unstyled d-flex">
+            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <li class="ms-3"><a class="link-dark" href="#">
+                <use xlink:href="#facebook" /></svg>
+              </a></li>
+          </ul>
+        </div>
+      </footer>
+
+</body>
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

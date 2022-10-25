@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnders</title>
+    <link rel="icon" type="image/x-icon" href="imagens/favicon-frontenders.png">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo-cadastro.css">
+
+
+    <!-- BOOTSTRAP --> 
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="cadastro.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!-- FIM DO BOOTSTRAP -->
+    
+    
+
+    <!-- FONTES -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- FIM DAS FONTES -->
+</head>
+<body>
+
+        <div id="menu" style="top: 0">
+            <img src="imagens/logo-frontenders.png" alt="logo">
+            <ul class="lista">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="produtos.html">Cursos</a></li>
+              <li><a href="contatos.html">Contato</a></li>
+              <li><a href="login.html"><button class="botao-login">Log in</button></a></li>
+            </ul>
+        </div>
+
+
+   
+
+
+<!-- CADASTRO -->
+
+<form class="container mb-5" id="formulario" style="width: 50%;">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail">Endereço de email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="nome@exemplo.com" required>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="inputRG">RG</label>
+            <input type="text" class="form-control" id="inputRG" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">    
+            <label for="inputSenha">Senha</label>
+            <input type="password" class="form-control" id="inputSenha" placeholder="Digite sua senha" required>
+        </div>
+
+        <div class="form-group col-md-6">    
+            <label for="confirmarSenha">Confirme sua senha</label>
+            <input type="password" class="form-control" id="confirmarSenha" placeholder="Confirme sua senha" required>
+        </div>
+    </div>
+
+    <div class="form-row mt-5">
+      <div class="form-group col-md-6">
+        <label for="inputCEP">CEP</label>
+        <input type="text" class="form-control" id="inputCEP" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputBairro">Bairro</label>
+        <input type="text" class="form-control" id="inputBairro" required>
+      </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputAddress">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="" required>
+        </div>
+
+        <div  class="form-group form-row col-md-6">
+          <div  class="col-md-6">
+            <label for="inputNumber">Numero</label>
+            <input type="text" class="form-control" id="inputNumber" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputEstado">Estado</label>
+            <select id="inputEstado" class="form-control" required>
+              <option selected>Escolher...</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </div>
+
+        </div>
+      
+     
+    </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Cidade</label>
+          <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputAddress2">Complemento</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc." required>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mt-5 form-row">
+          <button type="button" class="botao-login" onclick="simularEnvio()">Enviar</button>
+      </div>
+      
+  </form>
+
+  <div id="confirmacaoDeEnvio" class="d-none">
+    <div>
+      <h3>Obrigado por se cadastrar!</h3>
+      <p>Clique abaixo para voltar para a home</p>
+      <a class="botao-login" href="index.html">Voltar</a>
+    </div>
+  </div>
+
+    <!-- RODAPÉ -->
+
+    <div data-aos="fade-up" data-aos-duration="1500" id="rodape">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Menu</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cursos</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contato</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Log in</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Fale conosco</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email e telefone</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Quer receber novidades?</h5>
+                <p>Deixe o seu email abaixo e receba todos os nossos laçamentos!</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email:</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Informe seu Email">
+                  <button class="botao-rodape" type="button">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+  
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 The FrontEnders. Todos os direitos reservados.</p>
+            <ul class="list-unstyled d-flex">
+              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <li class="ms-3"><a class="link-dark" href="#">
+                  <use xlink:href="#facebook" /></svg>
+                </a></li>
+            </ul>
+          </div>
+        </footer>
+
+  </body>
+
+

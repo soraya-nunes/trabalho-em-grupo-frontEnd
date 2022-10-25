@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnders</title>
+    <link rel="icon" type="image/x-icon" href="imagens/favicon-frontenders.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+
+    <!-- BOOTSTRAP --> 
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+    <!-- FIM DO BOOTSTRAP -->
+    
+    <!-- FONTES -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- FIM DAS FONTES -->
+
+</head>
+<body>
+
+<!-- MENU E HEADER -->    
+
+    <div id="header">
+
+        <div id="menu">
+            <img src="imagens/logo-frontenders.png" alt="logo">
+            <ul class="lista">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Cursos</a></li>
+                <li><a href="contatos.html">Contato</a></li>
+                <li><a href="login.html"><button class="botao-login">Log in</button></a></li>
+            </ul>
+        </div>
+
+        <div class="frase-header">
+            <img src="imagens/frase-header.png" alt="frase">
+            <p class="descricao">Aqui você irá aprender a se tornar um desenvolvedor front-end, praticando com os melhores profissionais através da nossa plataforma moderna e vinda diretamente de outra galáxia.</p>
+        </div>
+
+        <img src="imagens/planetas.png" alt="planetas" class="img-header">
+
+        <div class="clear"></div>
+
+        <div id="secao1"></div>
+
+    </div>
+
+<!-- FIM DO MENU E HEADER -->
+
+<!-- CURSOS -->
+
+
+  <div data-aos="fade-down" data-aos-duration="1500" class="container">
+    <div class="row" id="cursos">
+
+      <div id="carouselExampleControls" class="col-md-7 carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+              </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="w-100" src="imagens/programming.png" alt="programando">
+                <div class="carousel-caption d-none d-md-block">
+                <h4>Aprenda de acordo com seu nível</h4>
+                <p>Nossa plataforma conta com cursos de nível básico, intermediário e avançado.</p>
+                </div>
+              </div>
+
+            <div class="carousel-item">
+                <img class="w-100" src="imagens/html-img.png" alt="programando">
+                <div class="carousel-caption d-none d-md-block">
+                <h4>Curso de HTML</h4>
+                <p>Aprenda HTML desde o básico, ao intermediário, até o avançado.</p>
+                </div>
+              </div>
+
+            <div class="carousel-item">
+                <img class="w-100" src="imagens/css-img.png" alt="programando">
+                <div class="carousel-caption d-none d-md-block">
+                <h4>Curso de CSS</h4>
+                <p>Aprenda CSS desde o básico, ao intermediário, até o avançado.</p>
+                </div>
+              </div>
+
+            <div class="carousel-item">
+                <img class="w-100" src="imagens/js-img.png" alt="programando">
+                <div class="carousel-caption d-none d-md-block">
+                <h4>Curso de JavaScript</h4>
+                <p>Aprenda JavaScript desde o básico, ao intermediário, até o avançado.</p>
+                </div>
+            </div>
+            
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+
+          </div>
+
+        <div class="col-md-4">
+            <h1 id="nossos-cursos">Nossos cursos</h1>
+            <p>Contamos com cursos de HTML, CSS e JavaScript. Todos os cursos estão disponíveis nas modalidades básico, intermediário e avançado, podendo o aluno escolher o nível que melhor se ajusta ao seu aprendizado. Tudo isso para você se tornar um desenvolvedor front-end extraordinário!</p>
+            <a href="produtos.html"><button class="botao-cursos mt-1">Conheça nossos cursos</button></a>
+        </div>
+
+    </div>
+  </div>
+
+<div id="secao2"></div>
+
+<!-- LISTA DE ESPERA -->
+
+<div data-aos="fade-up" data-aos-duration="1500" id="listaDeEspera">
+
+  <div class="container">
+
+  <div class="row">
+
+    <div class=" col-md-6 justify-content-center float-left mt-5">
+      <h1>Entre na nossa lista de espera</h1>
+      <p class="text-justify">A cada semestre, abrimos vagas para novas turmas em nossa plataforma. Cadastrando-se na lista de espera, você previamente se candidata às vagas na próxima turma a ser aberta, garantindo o seu acesso completo à nossa plaforma. </p>
+      <a href="cadastro.html"><button class="botaoLista mt-3">Quero garantir minha vaga!</button></a>
+    </div>
+
+    <div class="col-md-4 d-none d-md-block mt-4">
+      <img class="float-right" src="imagens/abduzindo.png" alt="abduzindo">
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="secao3"></div>
+
+<!-- MISSÃO DA EMPRESA -->
+
+<div data-aos="fade-down" data-aos-duration="1500" class="container px-4 py-5" id="featured-3">
+  <div class="sobre-nos row">
+    <div class="col-md-6">
+      <img src="imagens/alien-pc.png" alt="alien-pc" class="img-empresa">
+    </div>
+    <div class="col-md-6">
+      <h1>Sobre nós</h1>
+      <p>Somos a melhor escola de introdução à programação. Aqui você terá o melhor desempenho e desenvolvimento.
+        A FrontEnders compõe de um grande quadro de professores incríveis e apaixonados por tecnologia, ensinar e desenvolver pessoas. Com este apoio você conseguirá de vez entrar nesse universo gigante, aprender e melhorar suas habilidades na área Tech. Você terá acesso ao melhor conteúdo, porque temos como nossa base a missão de transformar tanto a sua carreira, como sua vida pessoal!</p>
+      <a href="contatos.html"><button class="botao-contato mt-1">Fale conosco</button></a>
+    </div>
+  </div>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="imagens/target.png" alt="missao" class="icone">
+      </div>
+      <h3 class="titulo-sobre fs-2">Missão</h3>
+      <p>Formar pessoas apaixonadas por tecnologia em seu melhor nível. O tornar um profissional capacitado para realizar demandas de formas rápidas e eficazes.</p>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="imagens/visao.png" alt="visao" class="icone">
+      </div>
+      <h3 class="titulo-sobre fs-2">Visão</h3>
+      <p>Promover a esperança, inclusão e confiança para pessoas de quaisquer meios sociais por meio da tecnologia.</p>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="imagens/maos.png" alt="valores" class="icone">
+      </div>
+      <h3 class="titulo-sobre fs-2">Valores</h3>
+      <p>Ser um curso de excelência e inovação na área da tecnologia, formar profissionais de referência na área e promover o avanço tecnológico.</p>
+    </div>
+  </div>
+</div>
+
+<div id="secao4"></div>
+
+<!-- DEPOIMENTOS DE ALUNOS -->
+
+<img  data-aos="fade-up" data-aos-duration="1500"  style="position: relative;"  class="curva-invertida " src="imagens/curva.png" alt="fundo">
+
+<div id="feedbacks">
+
+ 
+<div class="container px-4 py-5" id="featured-3">
+
+  <h1 data-aos="fade-down" data-aos-duration="1000" class="text-center mb-2">Depoimentos de ex-alunos FrontEnders:</h1>
+
+  <div style="gap: 20px;" class="row gap-4 py-5 row-cols-1 row-cols-lg-3">
+
+    <div data-aos="zoom-in" data-aos-duration="1000" class="feature col card ">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+      </div>
+      <img class="alunos align-self-center mb-3" src="imagens/gabriel.jpg" alt="Gabriel Fernandes - aluno">
+      <h3 class="fs-2 text-center">Gabriel Fernandes</h3>
+      <p class="text-center">"Cursei Direito e resolvi migrar para a área da tecnologia aos 28 anos. Fiz o meu cadastro na plataforma e, durante todo o curso, mesmo não tendo tido qualquer contato prévio com a área, eu me senti confiante em meu aprendizado, que foi leve e fácil graças aos profissionais excelentes da FrontEnders. Saí do Direito e considero essa a melhor escolha que eu poderia ter feito."</p>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="2000" class="feature col card ">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+      </div>
+      <img class="alunos align-self-center mb-3" src="imagens/mariana.jpg" alt="Mariana Campos - aluna">
+      <h3 class="fs-2 text-center">Mariana Campos</h3>
+      <p class="text-center">Após terminar o ensino médio, fiquei perdida com relação a qual carreira seguir. Uma amiga me recomendou a plataforma e decidi me aventurar no mundo da tecnologia. Através da didática dos professores e do aprendizado intuitivo que a FrontEnders me proporcionou, acabei me encontrando na área e hoje trabalho fazendo o que mais amo e me traz segurança.</p>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="3000" class="feature col card">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+      </div>
+      <img class="alunos align-self-center mb-3" src="imagens/miguel.jpg" alt="Luiz Miguel Dias - aluno">
+      <h3 class="fs-2 text-center">Luiz Miguel Dias</h3>
+      <p class="text-center">Tive um breve contato com programação na faculdade de Design e percebi uma aptidão para a área. Após conseguir meu diploma, decidi me aprofundar no assunto. Encontrei a FrontEnders e foi exatamente o que eu precisava. Através da plataforma, me tornei capacitado e hoje trabalho como desenvolvedor front-end numa empresa especializada em desenvolvimento web.</p>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+<!-- RODAPÉ -->
+
+<div data-aos="fade-up" data-aos-duration="1500"id="rodape">
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>FrontEnders</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="produtos.html" class="nav-link p-0 text-muted">Cursos</a></li>
+          <li class="nav-item mb-2"><a href="contatos.html" class="nav-link p-0 text-muted">Contato</a></li>
+          <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-muted">Log in</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Nossa empresa</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#secao1" class="nav-link p-0 text-muted">Nossos cursos</a></li>
+          <li class="nav-item mb-2"><a href="#secao2" class="nav-link p-0 text-muted">Lista de espera</a></li>
+          <li class="nav-item mb-2"><a href="#secao3" class="nav-link p-0 text-muted">Sobre nós</a></li>
+          <li class="nav-item mb-2"><a href="#secao4" class="nav-link p-0 text-muted">Feedbacks</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Fale conosco</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email e telefone</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Quer receber novidades?</h5>
+          <p>Deixe o seu email abaixo e receba todos os nossos laçamentos!</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email:</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Informe seu Email" required>
+            <button class="botao-rodape" type="button">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2022 The FrontEnders. Todos os direitos reservados.</p>
+      <ul class="icones-rodape list-unstyled d-flex">
+        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+</div>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

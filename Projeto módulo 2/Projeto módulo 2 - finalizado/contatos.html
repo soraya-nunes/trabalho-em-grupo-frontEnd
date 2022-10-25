@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#61378c">
+  <title>Contato</title>
+  <link rel="icon" type="image/x-icon" href="imagens/favicon-frontenders.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js"></script>
+
+  <!-- BOOTSTRAP -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <!-- FIM DO BOOTSTRAP -->
+
+
+
+  <!-- FONTES -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- FIM DAS FONTES -->
+</head>
+
+<body>
+
+  <!-- MENU E HEADER -->    
+
+  <div id="header-contatos">
+
+      <div id="menu">
+          <img src="imagens/logo-frontenders.png" alt="logo">
+          <ul class="lista">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Cursos</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+            <li><a href="login.html"><button class="botao-login">Log in</button></a></li>
+          </ul>
+           <!-- MENU E HEADER -->    
+
+
+
+      </div><!--Fim do Menu-->
+  
+    
+      <section id="Contatos" >
+      <form id="formulario-contato" action=""><!--Início do formulário-->
+ 
+          <h1>Fale conosco</h1>
+          <div id="area-input">
+              <input required type="text"  class="input-contato">
+              <label for="Nome" class="titulo-input">Nome Completo</label>
+              
+          </div>
+
+          <div id="area-input">
+          <input required type="text" class="input-contato">
+          <label for="E-mail" class="titulo-input">E-mail</label>
+          </div>
+
+          <div id="area-input">
+              <textarea required name="mensagem" class="input-contato" id="msg" cols="30"></textarea>
+              <label for="msg">Escreva a sua mensagem!</label> 
+          </div>
+
+          <div id="switch">
+              <p>Deseja receber cupons promocionais dos nossos cursos pelo e-mail:</p>
+              <label for="">
+              <input type="checkbox" id="caixinha" value="spam" name="spam">
+               Desejo Receber!!
+              </label>
+          </div>
+
+
+          <button type="submit" id="botao-contato">
+              <div class="divbotao">
+                  <i class="bi bi-send"></i>  
+              </div>
+                  <span>Enviar</span> 
+           
+          </button>
+
+      </form><!--Fim do Formulário-->
+      <div id="telinha">
+          <img src="./img-contato/rocket.png" width="100%" alt="telinha">
+      </div>
+      </section>
+  </div>
+  
+<!-- FIM DO MENU E HEADER --> 
+
+
+<h1 id="equipe-titulo">Nossa Equipe das Estrelas</h1>
+
+<div class="nossa-equipe">   
+
+<div class="caixa-contato">
+
+  <div class="row justify-content-center"><!--Display Flex-->
+  <div class="col-lg-4" id="caixa-pequena">
+    <img class="rounded-circle" src="./img-contato/Nayane.jpg" alt="imagem" width="140" height="140">
+    <h2>Nayane</h2>
+    <p id="texto">Web Designer
+         <p>Formada em Designer Gráfico, e está a 5 anos atuando como progrmadora Web</p> 
+    </p>
+  </div><!-- /.col-lg-5 -->
+
+  <div class="col-lg-4" id="caixa-pequena">
+      <img class="rounded-circle" src="./img-contato/Raysa.jpg" alt="imagem" width="140" height="140">
+      <h2>Raysa Reis</h2>
+      <p id="texto">Adiministradora
+          <p>Consultora de Infraestrutura, com experiência de 7 anos de área de TI</p>
+      </p>
+    </div><!-- /.col-lg-5 -->
+
+
+  <div class="col-lg-4" id="caixa-pequena">
+    <img class="rounded-circle circulo" src="./img-contato/IMG_20220918_223256_340 (1).webp" alt="image" width="140" height="140">
+    <h2 >Camille Soares</h2>
+    <p id="texto">Gerente de Marketing Digital
+      <p>Teste de Produtos e Marketing de Operações.</p>
+    </p>
+   </div><!-- /.col-lg-5-->
+  </div>
+
+   <div class="col-lg-4" id="caixa-pequena"> 
+    <img class="rounded-circle circulo1" src="./img-contato/Jenefer.jpg" alt=" image" width="140" height="140">
+    <h2>Jenifer Arrunda</h2>
+    <p id="texto">Professorar de Programação Front-end
+      <p>Formada em Ciências da Computação pela USP, com experiência na área de 6 anos</p>
+    </p>
+    
+   </div><!-- /.col-lg-4 -->
+
+   <div class="col-lg-4" id="caixa-pequena">
+      <img class="rounded-circle circulo1" src="./img-contato/Ana.jpg" alt=" image" width="140" height="140">
+      <h2>Ana Caroline</h2>
+      <p id="texto">Analista de Dados
+          <p>Gestão de dados estruturados e Machine Learning (inteligência artificial e automação de algoritmos)</p>
+      </p>
+      
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4" id="caixa-pequena">
+      <img class="rounded-circle circulo1" src="./img-contato/Soraya.jpg" alt=" image" width="140" height="140">
+      <h2>Soraya Nunes</h2>
+      <p id="texto"> Professora de Programação Fullstack</p>
+      <p> Desnvolvedora Fullstack, com experiência nas linguagens de programação mais recentes no mercado</p>
+    </div><!-- /.col-lg-4 -->
+
+</div><!-- /.row -->
+</div><!--/.Container-->   
+
+<!-- RODAPÉ -->
+
+<div data-aos="fade-up" data-aos-duration="1500"id="rodape">
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>FrontEnders</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="produtos.html" class="nav-link p-0 text-muted">Cursos</a></li>
+            <li class="nav-item mb-2"><a href="contatos.html" class="nav-link p-0 text-muted">Contato</a></li>
+            <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-muted">Log in</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Nossa empresa</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#secao1" class="nav-link p-0 text-muted">Nossos cursos</a></li>
+            <li class="nav-item mb-2"><a href="#secao2" class="nav-link p-0 text-muted">Lista de espera</a></li>
+            <li class="nav-item mb-2"><a href="#secao3" class="nav-link p-0 text-muted">Sobre nós</a></li>
+            <li class="nav-item mb-2"><a href="#secao4" class="nav-link p-0 text-muted">Feedbacks</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Fale conosco</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email e telefone</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Quer receber novidades?</h5>
+            <p>Deixe o seu email abaixo e receba todos os nossos laçamentos!</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email:</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Informe seu Email" required>
+              <button class="botao-rodape" type="button">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2022 The FrontEnders. Todos os direitos reservados.</p>
+        <ul class="icones-rodape list-unstyled d-flex">
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  </div>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+<script>
+
+  // FUNÇÃO PARA O MENU FICAR ROXO AO SCROLLAR 
+
+  window.onscroll = function mudarMenu(){
+      if (window.scrollY > 250){
+          document.getElementById("menu").style.backgroundColor = "#61378C";
+          document.getElementById("menu").style.boxShadow = "2px 2px 10px #000000";
+      } else{
+          document.getElementById("menu").style.backgroundColor = "";
+          document.getElementById("menu").style.boxShadow = "";
+      }
+
+  }
+
+  // FIM DA FUNÇÃO PARA O MENU FICAR ROXO AO SCROLLAR 
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+
+</body>
+</html>
